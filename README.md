@@ -14,9 +14,11 @@ As a motion designer,it's hard to implement the right effect on device.So i begi
 I try to Implement this work in Xcode(First of all,I made a prototype in Origami)
 
 ![origami](https://github.com/MartinRGB/GiftCard-Implementation/blob/master/Gif/Origami.gif?raw=true)
+
 This is the effect in Origami
 
 
 
 ![xcode](https://github.com/MartinRGB/GiftCard-Implementation/blob/master/Gif/Xcode.gif?raw=true)
+
 This is the effect in Xcode
