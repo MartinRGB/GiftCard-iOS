@@ -8,10 +8,11 @@ You can see the impressive [animation on Dribbble](https://dribbble.com/shots/20
 ##Why I Do This?
 
 As a motion designer,it's hard to implement the right effect on device.So i begin to learn some code.
+Also I thought beautiful things should be implemented.
 
 ##Final Effect
 
-I try to Implement this work in Xcode(First of all,I made a prototype in Origami)
+I try to Implement this work in Xcode(First of all,I made a prototype in Origami).I used the Pop framework.
 
 ![origami](https://github.com/MartinRGB/GiftCard-Implementation/blob/master/Gif/Origami.gif?raw=true)
 
