@@ -1,10 +1,8 @@
 # GiftCard-Implementation
 Try to Implement dribbble's popular shot.
 
-I love Nick Chuan's work,it's simple & elegant.As a motion designer,I know the shot is beautiful.
-
-
-An [example](https://dribbble.com/shots/2045026-Gift-Card?list=searches&offset=0)
+I love [Chuan²](https://dribbble.com/woodmouse)'s work,it's simple & elegant.
+The work's dribbble 
 
 ![origami](https://github.com/MartinRGB/GiftCard-Implementation/blob/master/Gif/Origami.gif?raw=true)
 
