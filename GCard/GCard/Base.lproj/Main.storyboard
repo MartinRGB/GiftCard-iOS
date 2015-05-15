@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SP9-QQ-zPC" userLabel="Container">
+                                <rect key="frame" x="96" y="5" width="376" height="292"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Shadow.png" translatesAutoresizingMaskIntoConstraints="NO" id="ln4-bO-HwA">
+                                        <rect key="frame" x="-10" y="4" width="395" height="285"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Base.png" translatesAutoresizingMaskIntoConstraints="NO" id="Iux-9P-AMw">
+                                        <rect key="frame" x="8" y="22" width="361" height="249"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Alpha View.png" translatesAutoresizingMaskIntoConstraints="NO" id="x4x-xG-Zxt">
+                                <rect key="frame" x="104" y="27" width="361" height="164"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Top Things.png" translatesAutoresizingMaskIntoConstraints="NO" id="nxj-1P-I4G">
+                                <rect key="frame" x="104" y="27" width="361" height="164"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Line.png" translatesAutoresizingMaskIntoConstraints="NO" id="HUf-yu-mLG">
+                                <rect key="frame" x="122" y="189" width="324" height="3"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Price Label.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ajp-xx-TmD">
+                                <rect key="frame" x="129" y="208" width="95" height="45"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aAv-pR-r9w">
+                                <rect key="frame" x="335" y="183" width="136" height="96"/>
+                                <state key="normal" image="Buy Button.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="btn:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="zrK-27-Hym"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sco-Ji-NrA" userLabel="For Motion">
+                                <rect key="frame" x="104" y="27" width="361" height="252"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="L1.png" translatesAutoresizingMaskIntoConstraints="NO" id="kim-q3-2d3">
+                                <rect key="frame" x="480" y="60" width="266" height="13"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="L2.png" translatesAutoresizingMaskIntoConstraints="NO" id="w1M-M3-RiJ">
+                                <rect key="frame" x="480" y="96" width="73" height="12"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="L3.png" translatesAutoresizingMaskIntoConstraints="NO" id="eDT-59-0B0">
+                                <rect key="frame" x="480" y="117" width="127" height="15"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="L4.png" translatesAutoresizingMaskIntoConstraints="NO" id="ERa-XH-xkF">
+                                <rect key="frame" x="480" y="137" width="153" height="13"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="L5.png" translatesAutoresizingMaskIntoConstraints="NO" id="xsT-rM-pnU">
+                                <rect key="frame" x="480" y="168" width="204" height="15"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wOJ-xQ-3QN" userLabel="For Curves">
+                                <rect key="frame" x="104" y="27" width="361" height="164"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Wave 1.png" translatesAutoresizingMaskIntoConstraints="NO" id="avw-UB-QPd">
+                                <rect key="frame" x="-569" y="105" width="1707" height="86"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Wave 2.png" translatesAutoresizingMaskIntoConstraints="NO" id="fA1-ng-u3V">
+                                <rect key="frame" x="0.0" y="104" width="1707" height="88"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Input.png" translatesAutoresizingMaskIntoConstraints="NO" id="nMh-mZ-rke">
+                                <rect key="frame" x="480" y="207" width="156" height="48"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="cbtn" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2YH-MM-JsF" userLabel="CheckoutButton">
+                                <rect key="frame" x="647" y="207" width="77" height="47"/>
+                                <state key="normal" image="Checkout.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="cbutton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="tOQ-ZF-hWK"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="Checkoutbutton" destination="2YH-MM-JsF" id="Wrv-jt-imy"/>
+                        <outlet property="alphaview" destination="x4x-xG-Zxt" id="4dh-wN-jCj"/>
+                        <outlet property="base" destination="Iux-9P-AMw" id="Xhv-h1-fsj"/>
+                        <outlet property="button" destination="aAv-pR-r9w" id="2wl-0o-Yss"/>
+                        <outlet property="container" destination="SP9-QQ-zPC" id="SzX-Bn-Okw"/>
+                        <outlet property="forcurves" destination="wOJ-xQ-3QN" id="GAd-86-xhe"/>
+                        <outlet property="formotion" destination="sco-Ji-NrA" id="GBL-iS-aKl"/>
+                        <outlet property="kuang" destination="nMh-mZ-rke" id="kgO-hC-7fg"/>
+                        <outlet property="l1" destination="kim-q3-2d3" id="Z9R-rT-S48"/>
+                        <outlet property="l2" destination="w1M-M3-RiJ" id="aMh-fX-lYG"/>
+                        <outlet property="l3" destination="eDT-59-0B0" id="KDe-Ww-Zls"/>
+                        <outlet property="l4" destination="ERa-XH-xkF" id="set-1u-Kdh"/>
+                        <outlet property="l5" destination="xsT-rM-pnU" id="fph-ry-iD7"/>
+                        <outlet property="line" destination="HUf-yu-mLG" id="6h7-FE-nOc"/>
+                        <outlet property="pricelabel" destination="Ajp-xx-TmD" id="eSM-tO-BLJ"/>
+                        <outlet property="shadow" destination="ln4-bO-HwA" id="CJ6-lT-QIo"/>
+                        <outlet property="topthings" destination="nxj-1P-I4G" id="M0U-se-W2c"/>
+                        <outlet property="wave1" destination="avw-UB-QPd" id="lXE-kO-Ftz"/>
+                        <outlet property="wave2" destination="fA1-ng-u3V" id="HdY-r0-GrO"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="344" y="422"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Alpha View.png" width="722" height="326"/>
+        <image name="Base.png" width="722" height="498"/>
+        <image name="Buy Button.png" width="272" height="188"/>
+        <image name="Checkout.png" width="154" height="94"/>
+        <image name="Input.png" width="312" height="96"/>
+        <image name="L1.png" width="534" height="26"/>
+        <image name="L2.png" width="146" height="24"/>
+        <image name="L3.png" width="254" height="30"/>
+        <image name="L4.png" width="306" height="26"/>
+        <image name="L5.png" width="408" height="30"/>
+        <image name="Line.png" width="648" height="4"/>
+        <image name="Price Label.png" width="190" height="90"/>
+        <image name="Shadow.png" width="790" height="562"/>
+        <image name="Top Things.png" width="722" height="328"/>
+        <image name="Wave 1.png" width="3422" height="194"/>
+        <image name="Wave 2.png" width="3414" height="176"/>
+    </resources>
+</document>
