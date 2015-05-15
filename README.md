@@ -4,6 +4,8 @@
 
 I love [Chuan²](https://dribbble.com/woodmouse)'s work,it's simple & elegant.
 You can see the impressive [animation on Dribbble](https://dribbble.com/shots/2045026-Gift-Card?list=searches&offset=0)
+![Original Work](https://d13yacurqjgara.cloudfront.net/users/142295/screenshots/2045026/giftcard.gif)
+This is original work by [Chuan²](https://dribbble.com/woodmouse)
 
 ##Why I Do This?
 
