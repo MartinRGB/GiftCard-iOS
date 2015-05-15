@@ -22,3 +22,6 @@ This is the effect in Origami
 ![xcode](https://github.com/MartinRGB/GiftCard-Implementation/blob/master/Gif/Xcode.gif?raw=true)
 
 This is the effect in Xcode
+
+
+P.S Special Thanks to 武☁️牛、AlienJunX、Franz、Kevin Lee,They helped me a lot.
