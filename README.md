@@ -15,6 +15,8 @@ Also I thought beautiful things should be implemented.
 
 I try to Implement this work in Xcode(First of all,I made a prototype in Origami).I used the Pop framework.
 
+Sorry for my poor code skill.In Fact,I'm in an Android ROM Team,but I'm very interested in iOS,I just wanna explore more ways to Implement effect.(Not only live in design tools)
+
 ![origami](https://github.com/MartinRGB/GiftCard-Implementation/blob/master/Gif/Origami.gif?raw=true)
 
 This is the effect in Origami
