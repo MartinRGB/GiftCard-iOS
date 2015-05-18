@@ -9,16 +9,6 @@
 project.xcworkspace/
 xcuserdata/
 
-# Generated files
-*.o
-*.pyc
-*.hi
-
-#Python modules
-MANIFEST
-dist/
-build/
-
 # Backup files
 *~.nib
 \#*#
