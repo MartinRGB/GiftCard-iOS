@@ -9,6 +9,9 @@
 project.xcworkspace/
 xcuserdata/
 
+# Quartz Composer
+*~.qtz
+
 # Backup files
 *~.nib
 \#*#
