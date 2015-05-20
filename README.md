@@ -1,4 +1,4 @@
-# GiftCard-Implementation
+# GiftCard-iOS
 
 ##[Chuan²](https://dribbble.com/woodmouse) did a masterpiece 
 
